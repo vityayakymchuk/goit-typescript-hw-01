@@ -3,8 +3,8 @@ interface User {
     age: number,
     email: string,
     address?: {
-        city?: string,
-        country?: string
+        city: string,
+        country: string
     }
 }
 
